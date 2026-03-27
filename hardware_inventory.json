@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "last_updated": "2026-03-27",
+    "owner": "Your Name"
+  },
+  "active": [
+    {
+      "name": "Test-Node-01",
+      "type": "Mini PC",
+      "hostname": "test-node-01",
+      "ip": "10.0.0.10",
+      "network_vlan": "Test LAN",
+      "primary_use": "Sample active device for demo purposes",
+      "location": "Test Lab",
+      "status": "Active",
+      "notes": "This is a placeholder test entry"
+    }
+  ],
+  "spare": [
+    {
+      "name": "Test-Spare-01",
+      "type": "SBC",
+      "serial_id": "SN-TEST-0001",
+      "last_known_state": "On hand / staging",
+      "intended_use": "Sample staging device for demo purposes",
+      "notes": "This is a placeholder test entry"
+    }
+  ],
+  "networks": [],
+  "change_log": [
+    "2026-03-27: Replaced inventory with test data for public repo demo."
+  ]
+}
